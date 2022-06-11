@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height:100vh;
+    background-color: #040c18 !important;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 600px 20px;
+}
+
+.text-blue {
+    color: #5584AC;
+}
+
+.header-caption {
+    color: #2E468C;
+    background-color: #8DA0D6;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.header-text {
+    text-shadow: 1px 2px 2px rgb(63, 63, 63);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 60px;
+}
+
+.img-illustration {
+    height: 400px;
+    object-fit: cover;
+}
+
+.header-subtext {
+    font-size: 18px;
+    line-height: 2;
+    max-width: 500px;
+    font-weight: lighter;
+}
+
+.text-gray {
+    color: #B5B5B5;
+}
+
+.btn-corona-detail:hover {
+    border-bottom: 3px solid #5584AC;
+}
+
+.btn-corona-detail {
+    border-bottom: 3px solid transparent;
+}
+
+.card-information {
+    border-radius: 20px !important;
+}
+
+.bg-dead{
+    background-color: #F24C4C !important;
+}
+
+.bg-recovered {
+    background-color: #83BD75 !important;
+}
+
+.bg-confirmed {
+    background-color: #F77E21 !important;
+}
+
+.report h3 {
+    font-size: 26px;
+    display: inline-block;
+}
+
+.report p {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 2;
+    color: #B5B5B5;
+    text-align: justify;
+}
+
+.footer {
+    font-size:14px;
+    font-weight: lighter;
+    color: #B5B5B5;
+}
+
+@media (max-width:1200px) {
+    body{
+        padding-bottom:50px;
+        background-position: 400px 20px;
+    }
+    
+    .header-text {
+        text-shadow: 1px 2px 2px rgb(63, 63, 63);
+        font-size: 45px;
+    }
+
+    .header-subtext {
+        font-size: 18px;
+    }
+
+    .header-caption {
+        font-size:16px
+    }
+
+    .img-illustration {
+        height: 250px;
+    }
+
+    .btn-corona-detail > h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1000px) {
+    body{
+        background-position: 300px 50px;
+        background-size: 100%;
+    }
+
+    .btn-corona-detail > h2 {
+        font-size: 25px;
+    }
+
+    .header-caption {
+        font-size:14px
+    }
+
+    .illustration::before {
+        top:10;
+        left: 200px;
+    }
+    
+    .illustration::after {
+        bottom:30px;
+        right:200px;
+    }
+}
+
+@media (max-width:991px) {
+    body {
+        height:auto;
+    }
+
+    .header-subtext {
+        margin-left:auto;
+        margin-right:auto;
+        font-size: 16px;
+    }
+
+    .img-illustration {
+        margin-top: 60px;
+    }
+}
+
+
+@media (max-width:579px){
+    body {
+        background-position: 150px 100px;
+        background-size: 100%;
+    }
+
+}
+
+
+@media (max-width:320px){
+    body{
+        background-position: 50px 300px;
+        background-size: 100%;
+    }
+
+    .img-illustration{
+        height: 200px;
+    }
+}
+
