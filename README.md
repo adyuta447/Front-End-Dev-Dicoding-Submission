@@ -3,6 +3,8 @@
 <img src="https://github.com/adyuta447/Front-End-Dev-Dicoding-Submission/blob/membuat-aplikasi-web-dengan-react/ss.png" alt="null">
 </p> 
 
+Live Demo in [here](https://notes-app-dicoding.vercel.app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
